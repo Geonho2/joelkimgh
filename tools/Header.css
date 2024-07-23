@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 0px 20px 5px 20px;
+}
+
+@media (width >= 450px) {
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+p {
+  font-family: Righteous;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flex {
+  display: flex;
+  align-items: center; 
+}
+
+.image {
+  padding: 5px 5px 0px 0px;
+}
+
+.dark {
+  color: #96DE98;
+}
+
+.light {
+  color: #000A13;
+}

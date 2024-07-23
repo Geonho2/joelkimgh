@@ -1,0 +1,57 @@
+.title {
+  margin: 60px 0px 0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: white;
+}
+
+.description {
+  margin: 20px 0px 0px;
+  padding-bottom: 80px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+}
+
+.content {
+  margin: 30px;
+}
+
+@media (width >= 450px) {
+  .content {
+    margin-top: 60px;
+    height: calc(100vh - 90px - 60px);
+    max-height: calc(852px - 30px - 60px);
+    overflow: auto;
+    border-radius: 30px;
+  }
+
+  .content::-webkit-scrollbar {
+    display: none;
+  }
+
+  Header {
+    margin-top: 60px;
+  }
+}
+
+textarea{
+  resize:none;
+}
+
+.textInput{
+  border-radius: 30px;
+  width: 303px;
+  height: 38px;
+  border: transparent;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 30px
+  
+}
